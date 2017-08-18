@@ -1,10 +1,10 @@
 #compass, #face {
     height: 300px;
     width: 300px;
-    background-color: lightsteelblue;
     border-radius: 50%;
     position: relative;
     margin: 0 auto;
+    border: 1px dashed black;
 }
 
 #face {
