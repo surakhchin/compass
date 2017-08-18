@@ -18,10 +18,13 @@
         <li>longitude :<span id="longitude"></span></li>
         <li>speed :<span id="speed"></span></li>
     </ul>
-    <div id="compass" style="z-index: -1">
-        <img src="face.png" id="face">
-    </div style="z-index: -1">
-    <p id="move"></p>
+    <div >
+        <p style="z-index: -1; position: absolute; bottom: 45px; right:45px" id="move"></p>
+        <div style="z-index: -1; position: absolute; bottom: 5px; right:5px" id="compass">
+            <img src="face.png" id="face">
+        </div >
+
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
