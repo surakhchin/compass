@@ -5,6 +5,7 @@
     position: relative;
     margin: 0 auto;
     border: 1px dashed black;
+    background-color: aliceblue;
 }
 
 #face {

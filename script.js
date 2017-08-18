@@ -25,7 +25,7 @@ function setDial(heading){
 
 function getMoving(heading){
     if (isNaN(heading)){
-        move.innerHTML = 'hey';
+        move.innerHTML = '';
     } else {
         move.innerHTML = heading + '˚';
     }
