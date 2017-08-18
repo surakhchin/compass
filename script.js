@@ -17,6 +17,8 @@ navigator.geolocation.watchPosition(function(position){
     getMoving(heading);
 }, console.log('error'), options);
 
+console.log(navigator.geolocation);
+
 function setDial(heading){
     face.style.transform = 'rotate(-' + heading + 'deg)';
 }
