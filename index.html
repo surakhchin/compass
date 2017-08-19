@@ -440,7 +440,7 @@
           needleAngle = needleAngle + delta;
           var updatedAngle = needleAngle - window.orientation;
           // rotate the needle
-          dom.byId("compassNeedle").style.webkitTransform = "rotate(" + updatedAngle + "deg)";
+          dom.byId("compassNeedle").style.webkitTransform = "rotate(" + (-1*updatedAngle) + "deg)";
         }
 
         function onDeviceOrientationChange(event) {
