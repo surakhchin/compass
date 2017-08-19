@@ -410,7 +410,7 @@
   popupContents.addEventListener("click", popupContentsClick);
 
   navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
-    enableHighAccuracy: false,
+    enableHighAccuracy: true,
     maximumAge: 30000,
     timeout: 27000
   });
