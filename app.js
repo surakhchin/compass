@@ -208,7 +208,7 @@
 
   function showHeadingWarning() {
     if (!warningHeadingShown) {
-      popupOpen("noorientation");
+      // popupOpen("noorientation");
       warningHeadingShown = true;
     }
   }
