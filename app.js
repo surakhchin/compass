@@ -149,7 +149,8 @@
   function onHeadingChange(event) {
     var heading = event.alpha;
     console.log('the better heading is: ' + heading);
-    document.getElementById.innerHTML = heading;
+    document.getElementById('header2').innerHTML = heading;
+
     if (typeof event.webkitCompassHeading !== "undefined") {
       heading = event.webkitCompassHeading; //iOS non-standard
     }
