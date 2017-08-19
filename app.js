@@ -189,7 +189,7 @@
       positionCurrent.hng = heading + adjustment;
 
       var phase = positionCurrent.hng < 0 ? 360 + positionCurrent.hng : positionCurrent.hng;
-      positionHng.textContent = (-360 + phase | 0) + "°";
+      positionHng.textContent = (0 + phase | 0) + "°";
 
 
       // apply rotation to compass rose
