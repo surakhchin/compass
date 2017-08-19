@@ -17,6 +17,13 @@ navigator.geolocation.watchPosition(function(position){
     getMoving(heading);
 }, console.log('error'), options);
 
+
+   var xyz = document.getElementById('latitude').innerHTML;
+    var yzz =document.getElementById('longitude').innerHTML;
+ document.getElementById('test').value= xyz;
+  document.getElementById('test2').value= yzz;
+    console.log(xyz);
+    console.log(yzz);
 console.log(navigator.geolocation);
 
 function setDial(heading){
