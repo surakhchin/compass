@@ -189,7 +189,7 @@
       }
 
       var posCur =  positionCurrent.hng = heading + adjustment;
-      console.log('the better heading is: ' + posCur);
+      console.log('this is the BEST heading: ' + posCur);
       document.getElementById('header3').innerHTML = posCur;
       var phase = positionCurrent.hng < 0 ? 360 + positionCurrent.hng : positionCurrent.hng;
       positionHng.textContent = (0 + phase | 0) + "°";
