@@ -11,7 +11,7 @@
     hng: null
   };
 
-
+  //test commit
   // the outer part of the compass that rotates
   var rose = document.getElementById("rose");
 
